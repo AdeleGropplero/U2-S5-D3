@@ -12,7 +12,7 @@ header button {
   border: none;
   border-radius: 40px;
   font-size: 10px;
-  line-height: 30px;
+  height: 30px;
   color: #642808;
   font-weight: bold;
 }
@@ -31,6 +31,13 @@ button:nth-of-type(3) {
 }
 
 button div img {
-  width: 38%;
-  margin-right: 1px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 500px) {
+  button div img {
+    width: 30px;
+    margin-right: 1px;
+  }
 }
