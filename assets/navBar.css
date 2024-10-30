@@ -1,0 +1,33 @@
+.containerNav {
+  background-color: #fbf7e3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+}
+button {
+  background-color: #f3df85;
+  width: 17%;
+  margin-block: 15px;
+  border: none;
+  border-radius: 40px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+button:nth-of-type(3) {
+  width: 25%;
+  height: 50px;
+}
+
+.shopBtn {
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+  justify-content: space-between;
+  font-size: 15px;
+}
+button div img {
+  width: 38%;
+  margin-right: 10px;
+}
