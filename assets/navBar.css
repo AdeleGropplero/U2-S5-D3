@@ -12,7 +12,9 @@ button {
   border: none;
   border-radius: 40px;
   font-size: 10px;
-  line-height: 20px;
+  line-height: 30px;
+  color: #642808;
+  font-weight: bold;
 }
 
 button:nth-of-type(3) {
@@ -23,11 +25,12 @@ button:nth-of-type(3) {
 .shopBtn {
   display: flex;
   align-items: center;
-  padding-inline: 10px;
+  padding-inline: 12px;
   justify-content: space-between;
   font-size: 15px;
 }
+
 button div img {
   width: 38%;
-  margin-right: 10px;
+  margin-right: 1px;
 }

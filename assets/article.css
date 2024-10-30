@@ -1,0 +1,19 @@
+article div {
+  background-color: #fbf7e3;
+  color: #642808;
+
+  padding: 30px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+article div p {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+article div img {
+  display: block;
+
+  width: 100%;
+}
